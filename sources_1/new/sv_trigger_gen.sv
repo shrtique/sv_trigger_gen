@@ -36,7 +36,8 @@ module sv_trigger_gen(
 
 //DESCRIPTION
 //Use this module to generate trigger signal for python1300_ip_core.
-//Here we don't have any debouncing circuits, only sync(two regs in a row for external trigger)
+//You could choose if trigger is external or an output of quad decoder module. 
+//Notice that we don't have any debouncing circuits here, only sync(two regs in a row for external trigger)
 
 logic       mux_trigger_signal;
 logic [0:1] ext_trigger_sync;
