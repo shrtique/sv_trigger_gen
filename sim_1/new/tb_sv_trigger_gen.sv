@@ -16,9 +16,13 @@
 // Revision:
 // Revision 0.01 - File Created
 // Additional Comments:
+<<<<<<< HEAD
 // gitted
 //git test once again
 //new_branch
+=======
+// Branch: master
+>>>>>>> master
 //////////////////////////////////////////////////////////////////////////////////
 
 
